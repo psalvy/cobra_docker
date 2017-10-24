@@ -5,6 +5,7 @@ lxml
 openpyxl
 pymysql
 pytest
+python-libsbml
 pytfa
 scipy
 sqlalchemy

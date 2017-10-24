@@ -3,3 +3,4 @@ solvers/*
 *.pyc
 *.bat
 *.sh
+utils/gurobi.lic

@@ -1,0 +1,1 @@
+docker run --rm -it -v /Users/pierre/src/git/cobra_docker/work:/home/jovyan/work cobra $*

@@ -1,0 +1,5 @@
+work/*/*
+solvers/*
+*.pyc
+*.bat
+*.sh

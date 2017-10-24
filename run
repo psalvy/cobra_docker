@@ -1,1 +1,5 @@
-docker run --rm -it -v /Users/pierre/src/git/cobra_docker/work:/home/jovyan/work cobra $*
+#!/bin/sh
+docker run 	--rm -it 			\
+		-v $(pwd)/work:/home/pytfa/work \
+		-v $(pwd)/..:/src/pytfa	\
+		pytfa_docker

@@ -5,6 +5,7 @@ lxml
 openpyxl
 pymysql
 pytest
+pytfa
 scipy
 sqlalchemy
 tabulate

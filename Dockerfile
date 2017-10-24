@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         htop            \
     && rm -rf /var/lib/apt/lists/*
 
-ENV USER pytfa
+ENV USER lcsb
 ENV HOME /home/$USER
 
 RUN useradd -ms "/bin/bash" "$USER"
@@ -60,5 +60,4 @@ RUN mkdir ./work
 RUN /utils/activate_gurobi.sh
 
 # Load your package in development mode on startup
-ENTRYPOINT ["/bin/bash", "-c", "pip install --user -e /src/pytfa && $0 $*"]
 CMD /bin/bash

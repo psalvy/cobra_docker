@@ -1,1 +1,2 @@
-docker build -t cobra_docker .
+#!/bin/sh
+docker build -t lcsb_docker .
